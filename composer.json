@@ -1,0 +1,26 @@
+{
+    "name": "solenoid/cdn",
+    "description": "CDN management library",
+    "type": "library",
+    "keywords": ["cdn","file","router"],
+    "homepage": "https://github.com/Solenoid-IT/php-cdn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pier Niccolò Giannelli",
+            "email": "pierniccologiannelli@gmail.com",
+            "homepage": "https://www.solenoid.it",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "solenoid/system": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solenoid\\CDN\\": "src",
+            "Solenoid\\System\\": "src"
+        }
+    }
+}
